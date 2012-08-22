@@ -25,6 +25,8 @@
 .etch-editor-panel .etch-bold span { background-position: 0 0; }
 .etch-editor-panel .etch-italic span { background-position: -30px 0; }
 .etch-editor-panel .etch-underline span { background-position: -60px 0; }
+.etch-editor-panel .etch-superscript span { background-position: -60px 0; }
+.etch-editor-panel .etch-subscript span { background-position: -60px 0; }
 .etch-editor-panel .etch-unordered-list span { background-position: -90px 0; }
 .etch-editor-panel .etch-ordered-list span { background-position: -120px 0; }
 .etch-editor-panel .etch-image span { background-position: -150px 0; }

@@ -42,6 +42,8 @@
       'click .etch-bold': 'toggleBold',
       'click .etch-italic': 'toggleItalic',
       'click .etch-underline': 'toggleUnderline',
+      'click .etch-superscript': 'toggleSuperscript',
+      'click .etch-subscript': 'toggleSubscript',
       'click .etch-heading': 'toggleHeading',
       'click .etch-unordered-list': 'toggleUnorderedList',
       'click .etch-justify-left': 'justifyLeft',
@@ -115,7 +117,17 @@
       e.preventDefault();
       document.execCommand('underline', false, null);
     },
-        
+
+    toggleSuperscript: function(e) {
+      e.preventDefault();
+      document.execCommand('superscript', false, null);
+    },
+
+    toggleSubscript: function(e) {
+      e.preventDefault();
+      document.execCommand('subscript', false, null);
+    },
+
     toggleHeading: function(e) {
       e.preventDefault();
       var range = window.getSelection().getRangeAt(0);
